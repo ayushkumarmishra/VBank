@@ -13,6 +13,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #444;
   background-color: #d3d3d3;
+  background: url('./bcgc.png') center no-repeat;
   height: 100vh;
   padding: 2rem;
 }
@@ -22,6 +23,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
 }
 
 .welcome {
@@ -47,7 +50,7 @@ nav {
   border-radius: 10rem;
   margin-right: 1rem;
   color: inherit;
-  border: 1px solid #fff;
+  border: 1px solid rgb(222, 52, 52);
   transition: all 0.3s;
 }
 
